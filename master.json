@@ -33,7 +33,12 @@
 			"url": "https://www.directsupply.com",
 			"startDate": "2019-01",
 			"endDate": "2021-05",
-			"summary": "Worked on a cross-functional team to develop, test, and implement 30+ user interfaces for enterprise-level software products. Helped develop and communicate a novel business and user experience practice to ensure outrageous customer service."
+			"highlights": [
+				"Worked on a cross-functional team to develop, test, and implement 30+ user interfaces for enterprise-level software products",
+				"Helped develop and communicate a novel business and user experience practice to ensure outrageous customer service",
+				"Worked with other interns to design, develop, and deploy 2 mobile applications"
+			],
+			"summary": "Worked part-time on the UX/front-end team"
 		},
 		{
 			"name": "Direct Supply, Inc.",
@@ -42,8 +47,11 @@
 			"position": "Software Engineer",
 			"url": "https://www.directsupply.com",
 			"startDate": "2021-05",
-			"summary": "Continuing to develop, test, and implement user interfaces and iterate on established user experience practices. Helping onboard and mentor interns. Developed a working processes to migrate and test critical business infrastructure from Windows Server 2003 to a modern internal alternative.",
+			"summary": "Working full-time as a full-stack engineer",
 			"highlights": [
+				"Helping to onboard and mentor interns",
+				"Continuing to develop, test, and implement user interfaces and iterate on established user experience practices",
+				"Developed a working processes to migrate and test critical business infrastructure from Windows Server 2003 to a modern internal alternative",
 				"Awarded Q4 technology partner 2021 for my work in migrating existing obsolete architecture to new platforms"
 			]
 		},
@@ -53,7 +61,12 @@
 			"url": "https://www.isd623.org",
 			"startDate": "2018-06",
 			"endDate": "2019-01",
-			"summary": "Worked with a community education college-prep program (summer and after-school). Responsibilities included lesson planning, one-on-one tutoring in enginlish and coding activities, and chaperoning fieldtrips to local colleges."
+			"summary": "Worked with a community education college-prep program (summer and after-school)",
+			"highlights": [
+				"Developed and executed lesson plans",
+				"Tutored one-on-one in english and coding activities",
+				"Chaperoned fieldtrips to local colleges"
+			]
 		}
 	],
 	"education": [
