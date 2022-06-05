@@ -1,119 +1,162 @@
 {
-    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
 	"basics": {
-		"name": "John Doe",
-		"label": "Programmer",
-		"image": "",
-		"email": "john@gmail.com",
-		"phone": "(912) 555-4321",
-		"url": "https://johndoe.com",
-		"summary": "A summary of John Doe…",
+		"name": "Robert George Burkhardt",
+		"label": "Software Engineer and UX Designer",
+		"email": "rgeorgebu@gmail.com",
+		"phone": "(612) 251-9897",
+		"url": "https://rgeorgebu.net",
 		"location": {
-			"address": "2712 Broadway St",
-			"postalCode": "CA 94115",
-			"city": "San Francisco",
+			"city": "Milwaukee",
 			"countryCode": "US",
-			"region": "California"
+			"region": "Wisconsin"
 		},
-		"profiles": [{
-			"network": "Twitter",
-			"username": "john",
-			"url": "https://twitter.com/john"
-		}]
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "Robert (George) Burkhardt",
+				"url": "https://www.linkedin.com/in/rgb"
+			},
+			{
+				"network": "GitHub",
+				"username": "rgeorgebu",
+				"url": "https://github.com/rgeorgebu"
+			}
+		]
 	},
-	"work": [{
-		"name": "Company",
-		"position": "President",
-		"url": "https://company.com",
-		"startDate": "2013-01-01",
-		"endDate": "2014-01-01",
-		"summary": "Description…",
-		"highlights": [
-			"Started the company"
-		]
-	}],
-	"volunteer": [{
-		"organization": "Organization",
-		"position": "Volunteer",
-		"url": "https://organization.com/",
-		"startDate": "2012-01-01",
-		"endDate": "2013-01-01",
-		"summary": "Description…",
-		"highlights": [
-			"Awarded 'Volunteer of the Month'"
-		]
-	}],
-	"education": [{
-		"institution": "University",
-		"url": "https://institution.com/",
-		"area": "Software Development",
-		"studyType": "Bachelor",
-		"startDate": "2011-01-01",
-		"endDate": "2013-01-01",
-		"score": "4.0",
-		"courses": [
-			"DB1101 - Basic SQL"
-		]
-	}],
-	"awards": [{
-		"title": "Award",
-		"date": "2014-11-01",
-		"awarder": "Company",
-		"summary": "There is no spoon."
-	}],
-	"certificates": [{
-		"name": "Certificate",
-		"date": "2021-11-07",
-		"issuer": "Company",
-		"url": "https://certificate.com"
-	}],
-	"publications": [{
-		"name": "Publication",
-		"publisher": "Company",
-		"releaseDate": "2014-10-01",
-		"url": "https://publication.com",
-		"summary": "Description…"
-	}],
-	"skills": [{
-		"name": "Web Development",
-		"level": "Master",
-		"keywords": [
-			"HTML",
-			"CSS",
-			"JavaScript"
-		]
-	}],
+	"work": [
+		{
+			"name": "Direct Supply, Inc.",
+			"description": "Senior Living Ecommerce and Services",
+			"location": "Milwaukee, WI",
+			"position": "Software Engineer Intern",
+			"url": "https://www.directsupply.com",
+			"startDate": "2019-01",
+			"endDate": "2021-05",
+			"summary": "Worked on a cross-functional team to develop, test, and implement 30+ user interfaces for enterprise-level software products. Helped develop and communicate a novel business and user experience practice to ensure outrageous customer service."
+		},
+		{
+			"name": "Direct Supply, Inc.",
+			"description": "Senior Living Ecommerce and Services",
+			"location": "Milwaukee, WI",
+			"position": "Software Engineer",
+			"url": "https://www.directsupply.com",
+			"startDate": "2021-05",
+			"summary": "Continuing to develop, test, and implement user interfaces and iterate on established user experience practices. Helping onboard and mentor interns. Developed a working processes to migrate and test critical business infrastructure from Windows Server 2003 to a modern internal alternative.",
+			"highlights": [
+				"Awarded Q4 technology partner 2021 for my work in migrating existing obsolete architecture to new platforms"
+			]
+		},
+		{
+			"name": "Roseville Area Schools",
+			"position": "Teaching Assistant",
+			"url": "https://www.isd623.org",
+			"startDate": "2018-06",
+			"endDate": "2019-01",
+			"summary": "Worked with a community education college-prep program (summer and after-school). Responsibilities included lesson planning, one-on-one tutoring in enginlish and coding activities, and chaperoning fieldtrips to local colleges."
+		}
+	],
+	"education": [
+		{
+			"institution": "Milwaukee School of Engineering",
+			"url": "https://www.msoe.edu",
+			"area": "Software Engineering",
+			"studyType": "B.S.",
+			"startDate": "2017-09",
+			"endDate": "2021-05",
+			"score": "3.96"
+		}
+	],
+	"certificates": [
+		{
+			"date": "2021-05-22",
+			"issuer": "Milwaukee School of Engineering",
+			"name": "Minor in Mathematics",
+			"url": "https://www.msoe.edu"
+		},
+		{
+			"date": "2021-05-22",
+			"issuer": "Milwaukee School of Engineering",
+			"name": "Minor in User Experience",
+			"url": "https://www.msoe.edu"
+		}
+	],
+	"skills": [
+		{
+			"name": "Programming Languages",
+			"keywords": [
+				"HTML",
+				"CSS",
+				"SCSS",
+				"JavaScript",
+				"TypeScript",
+				"C",
+				"C#",
+				"Java",
+				"SQL",
+				"Python",
+				"Ruby",
+				"Bash"
+			]
+		},
+		{
+			"name": "Tools",
+			"keywords": [
+				"Git",
+				"GitLab CI",
+				"GitHub Actions",
+				"Linux",
+				"Windows",
+				"macOS",
+				"Node",
+				"Deno",
+				"Terraform",
+				"Consul",
+				"Docker",
+				".NET Core",
+				"Postgresql",
+				"MSSQL",
+				"AWS"
+			]
+		},
+		{
+			"name": "Libraries and Frameworks",
+			"keywords": ["React", "Redux", "Webpack", "ASP.NET"]
+		},
+		{
+			"name": "Practices",
+			"keywords": ["Lean UX", "Agile", "Scrum"]
+		}
+	],
 	"languages": [{
 		"language": "English",
 		"fluency": "Native speaker"
 	}],
-	"interests": [{
-		"name": "Wildlife",
-		"keywords": [
-			"Ferrets",
-			"Unicorns"
-		]
-	}],
-	"references": [{
-		"name": "Jane Doe",
-		"reference": "Reference…"
-	}],
-	"projects": [{
-		"name": "Project",
-		"description": "Description…",
-		"highlights": [
-			"Won award at AIHacks 2016"
-		],
-		"keywords": [
-			"HTML"
-		],
-		"startDate": "2019-01-01",
-		"endDate": "2021-01-01",
-		"url": "https://project.com/",
-		"roles": [
-			"Team Lead"
-		],
-		"entity": "Entity",
-		"type": "application"
-	}]
+	"projects": [
+		{
+			"name": "rgeorgebu.net",
+			"description": "Personal website and blog",
+			"highlights": [
+				"Fully static - only uses HTML and CSS",
+				"Built with Deno, React, and GitHub Pages"
+			],
+			"startDate": "2021",
+			"url": "https://rgeorgebu.net",
+			"type": "website"
+		},
+		{
+			"name": "Prostate Cancer and Generative Adversarial Networks",
+			"description": "Research the use of AI/ML in medical imaging",
+			"startDate": "2019",
+			"endDate": "2020",
+			"highlights": [
+				"Attempted to develop a set of models to partition, and translate high resolution prostate slide image data",
+				"Demonstrated initial results at Milwaukee School of Engineering's Dierks Hall Grand Opening (2019-09)",
+				"Halted due to Covid-19 Pandemic"
+			],
+			"roles": ["Undergraduate"],
+			"entity": "Medical College of Wisconsin",
+			"type": "research"
+		}
+	]
 }
